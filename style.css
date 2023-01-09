@@ -1,0 +1,44 @@
+body {
+    font-family: 'roboto';
+    background-color: black;
+}
+
+.TopBun {
+    background-color: #1f2937;
+    display: flex;
+    flex-grow: 1;
+}
+
+.headername {
+    font-size: 24px;
+    color: #f9faf8;
+    height: auto;
+}
+
+.links {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hook {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.button {
+    background-color: #3882f6;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 8px 36px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px;
+}
+
+.ironlord {
+    height: 400px;
+    width: auto;
+}
