@@ -1,12 +1,16 @@
 body {
     font-family: 'roboto';
-    background-color: black;
+    margin: 0;
 }
 
 .TopBun {
     background-color: #1f2937;
+}
+
+.header {
     display: flex;
-    flex-grow: 1;
+    justify-content: space-between;
+    padding: 16px 32px;
 }
 
 .headername {
@@ -16,8 +20,11 @@ body {
 }
 
 .links {
+    display: flex;
     font-size: 18px;
     color: #e5e7eb;
+    gap: 16px;
+
 }
 
 .hook {
@@ -38,7 +45,70 @@ body {
     margin: 4px;
 }
 
+.imgbox {
+    display: flex;
+    justify-content: right;
+}
+
 .ironlord {
-    height: 400px;
+    height: 250px;
     width: auto;
+}
+
+.InfoHeader {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    height: 170.656px;
+    width: auto;
+}
+
+.examples {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 32px;
+    margin-bottom: 32px;
+}
+
+.info {
+    max-width: 303.375px;
+    text-align: center;
+}
+
+.fancy {
+    transition: .2s;
+}
+
+.info {
+    transition: .2s;
+}
+
+.fancy:hover {
+    transform: scale(1.5);
+}
+
+.info:hover {
+    color: transparent;
+}
+
+.quotebox {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+}
+
+.quote {
+    font-style: italic;
+
+}
+
+.speaker {
+    font-weight: 600;
+
 }
