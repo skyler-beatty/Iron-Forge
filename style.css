@@ -1,10 +1,21 @@
 body {
     font-family: 'roboto';
     margin: 0;
+    background-image: url(irontemple.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 100vh; */
+    height: 100vh;
+}
+
+irontemple.png {
+    min-height: 100%;
+    min-width: 1024px;
 }
 
 .TopBun {
-    background-color: #2e4137;
+    /* background-color: #2e4137; */
 }
 
 .header {
@@ -24,7 +35,12 @@ body {
     font-size: 18px;
     color: #e5e7eb;
     gap: 16px;
+    margin-bottom: 10px;
+}
 
+a {
+    text-decoration: none;
+    color: white;
 }
 
 .container {
@@ -57,7 +73,20 @@ body {
     text-decoration: none;
     display: inline-block;
     margin: 4px;
-    max-width: 40px;
+    max-width: 44px;
+    transition: .2s;
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(136, 136, 136);
+}
+
+.button:hover {
+    transform: scale(1.2);
+    box-shadow:
+    inset 1px 0 1px rgb(136, 136, 136),
+    inset -1px 0 1px rgb(136, 136, 136);
+    box-shadow: 0px 0px 3px 3px rgb(136, 136, 136);
+    border-color: transparent;
 }
 
 .ironlords {
@@ -66,7 +95,11 @@ body {
 }
 
 .Lettuce {
-    background: #433520;
+    background: #00000087;
+    margin: 0 250px;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: #912e09
 }
 
 .InfoHeader {
@@ -95,30 +128,72 @@ body {
     transition: .2s;
     height: 170.656px;
     width: auto;
-}
-
-.info {
-    transition: .2s;
+    border-style: solid;
+    border-width: thin;
 }
 
 .fancy:hover {
     transform: scale(1.5);
+    box-shadow:
+    inset 1px 0 1px rgb(136, 136, 136),
+    inset -1px 0 1px rgb(136, 136, 136);
+    box-shadow: 0px 0px 3px 3px rgb(136, 136, 136);
+    border-style: none;
 }
 
-.quotebox {
-    background-color: #7e8f96;
+.Cheese {
+    background-color: #00000087;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 64px;
+    margin: 10px 250px;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: #938585;
 }
 
 .quote {
     font-style: italic;
     font-size: 36px;
     font-weight: lighter;
+    color: #c5620d;
+    text-shadow: 0px -2px 4px #fff, 0px -2px 10px #FF3, 0px -10px 20px         #F90, 0px -20px 40px #C33;
 }
 
 .speaker {
     font-weight: 900;
+    text-align: right;
+    text-shadow: none;
+    color: #c5620d;
+    font-size: 18px;
+}
+
+.Burger {
+    background-color: #00000087;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 64px;
+    margin: 10px 250px;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: #2e4137;
+}
+
+.call {
+    color: white;
+    padding: 16px;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.BottomBun {
+    height: 72px;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #00000087;
 }
