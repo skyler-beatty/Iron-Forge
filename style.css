@@ -5,7 +5,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* width: 100vh; */
+    background-attachment: fixed;
     height: 100vh;
 }
 
@@ -60,7 +60,7 @@ a {
 }
 
 .button {
-    background-color: #541212;
+    background-color: #2e4137;
     border: none;
     border-radius: 12px;
     color: white;
@@ -71,18 +71,11 @@ a {
     margin: 4px;
     max-width: 44px;
     transition: .2s;
-    border-style: solid;
-    border-width: thin;
-    border-color: rgb(136, 136, 136);
 }
 
 .button:hover {
     transform: scale(1.2);
-    box-shadow:
-    inset 1px 0 1px rgb(136, 136, 136),
-    inset -1px 0 1px rgb(136, 136, 136);
-    box-shadow: 0px 0px 3px 3px rgb(136, 136, 136);
-    border-color: transparent;
+    box-shadow: -3px 4px 13px 5px rgb(0 0 0);
 }
 
 .ironlords {
@@ -90,12 +83,12 @@ a {
     width: auto;
 }
 
-.Lettuce {
+.infographic {
     background: #00000087;
     margin: 0 250px;
     border-radius: 12px;
     border-style: solid;
-    border-color: #912e09
+    border-color: #00000061;
 }
 
 .InfoHeader {
@@ -115,29 +108,26 @@ a {
 }
 
 .info {
-    max-width: 303.375px;
+    width: 303.375px;
     text-align: center;
     color: white;
 }
 
-.fancy {
+.graphic {
     transition: .2s;
     height: 170.656px;
     width: auto;
-    border-style: solid;
-    border-width: thin;
+    border-radius: 8px;
 }
 
-.fancy:hover {
+.graphic:hover {
     transform: scale(1.5);
-    box-shadow:
-    inset 1px 0 1px rgb(136, 136, 136),
-    inset -1px 0 1px rgb(136, 136, 136);
-    box-shadow: 0px 0px 3px 3px rgb(136, 136, 136);
+    box-shadow: -3px 4px 13px 5px rgb(0 0 0);
     border-style: none;
+    margin: -12px;
 }
 
-.Cheese {
+.quotebox {
     background-color: #00000087;
     display: flex;
     flex-direction: column;
@@ -146,7 +136,7 @@ a {
     margin: 10px 250px;
     border-radius: 12px;
     border-style: solid;
-    border-color: #938585;
+    border-color: #00000061;
 }
 
 .quote {
@@ -165,7 +155,7 @@ a {
     font-size: 18px;
 }
 
-.Burger {
+.action {
     background-color: #00000087;
     display: flex;
     align-items: center;
@@ -174,7 +164,7 @@ a {
     margin: 10px 250px;
     border-radius: 12px;
     border-style: solid;
-    border-color: #2e4137;
+    border-color: #00000061;
 }
 
 .call {
@@ -184,9 +174,12 @@ a {
     font-size: 26px;
 }
 
-.BottomBun {
-    height: 72px;
-    margin-top: auto;
+.githublink {
+    height: 30px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
